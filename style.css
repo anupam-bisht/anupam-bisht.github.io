@@ -1,0 +1,70 @@
+body{
+	
+	background-image: url("bn2.jpg");
+	opacity: 0.8;
+}
+
+#container{
+	background-color: white;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#header{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+#content{
+	padding:10px
+}
+
+#nav{
+	width: 150px;
+	float: left;
+}
+
+#nav .selected{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.picture {
+  opacity: 1;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+h1,h2, h3{
+	margin = 0;
+}
+
+#main{
+	width: 1000px;
+	float : right;
+}
+
+#footer{
+	clear: both;
+	padding: 10px;
+	background-color: white;
+	color:black;
+	text-align: right;
+}
