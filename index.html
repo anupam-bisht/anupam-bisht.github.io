@@ -1,42 +1,192 @@
-<html>
-	<head>
-		<title>
-		Homepage
-		</title>
-		<link rel = "stylesheet" type = "text/css" href = "style1.css" />
-	</head>
-	
-	<body>
-		<div id = "container">
-			<div id = "content">
-				<div id = "nav">
-					<h3> Contents </h3>
-					<ul>
-						<li><a class ="selected" href = "" >Home</a></li>
-						<li><a href = "https://anupam-bisht.github.io/CV_V1_Anupam_April2023.pdf">CV</a></li>
-						<li><a href = "https://anupam-bisht.github.io/research.html">Updates</a></li>
-						<li><a href = "https://anupam-bisht.github.io/research.html">Research Interests</a></li>
-						<li><a href = "https://anupam-bisht.github.io/social.html">Outreach</a></li>
-						<li><a href = "https://anupam-bisht.github.io/misc.html">Miscellaneous</a></li>						
-					</ul>
-				</div>				
-				<div id = "main">
-				<h1><center>Anupam Bisht</center> </h1>
-			<figure>
-			<div class="picture">
-			<img src="anupam.jpg" alt="Anupam's Headshot" style="width:20%">
-			</div>
-			</figure>
-			<p>	Hello! My name is Anupam Bisht. I am a PhD student at the University of Calgary, Canada (Jan 2021 - present). My research work deals with building and testing recording and
-				stimulating technolgies for the use in freely moving rodent experiments. </p> 
-			</div>
-			</div>
-			
-			<div id = "footer">
-				Anupam Bisht (Updated 28th April 2023)
-			</div>
-			
-		</div>
-	
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anupam Bisht | Biomedical Engineering Researcher</title>
+    <meta
+      name="description"
+      content="Anupam Bisht, PhD. Postdoctoral research associate working on optical imaging, neurotechnology, and preclinical neuroscience tools."
+    >
+    <link rel="preload" href="assets/profile.jpg" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Anupam Bisht home">AB</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Postdoctoral research associate</p>
+          <h1>Anupam Bisht, PhD</h1>
+          <p class="lede">
+            I build optical, electrical, and computational tools for studying neural
+            activity and hemodynamics in behaving animals.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="assets/Anupam_Bisht_CV.pdf">Download CV</a>
+            <a class="button secondary" href="mailto:anupambisht2017@gmail.com">Email</a>
+          </div>
+        </div>
+        <figure class="portrait-wrap">
+          <img src="assets/profile.jpg" alt="Portrait of Anupam Bisht" class="portrait">
+        </figure>
+      </section>
+
+      <section class="section intro">
+        <div>
+          <p class="section-label">Current role</p>
+          <h2>Imaging Sciences at St. Jude Children's Research Hospital</h2>
+        </div>
+        <p>
+          I am a postdoctoral research associate in Dr. Elizabeth Hillman's lab at
+          St. Jude Children's Research Hospital. My work connects optical imaging,
+          implantable and wireless devices, signal processing, and systems
+          neuroscience, with a focus on making experiments in freely moving animals
+          more informative and less constrained.
+        </p>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-heading">
+          <p class="section-label">Research</p>
+          <h2>Tools for measuring the living brain</h2>
+        </div>
+        <div class="research-grid">
+          <article class="research-item">
+            <h3>Neurotechnology</h3>
+            <p>
+              Wireless and miniaturized systems for deep brain stimulation,
+              photometry, and surface hemodynamics in freely moving rodents.
+            </p>
+          </article>
+          <article class="research-item">
+            <h3>Optical imaging</h3>
+            <p>
+              Fiber-based and widefield measurements of neural activity,
+              fluorescence, oxygenation, and motion-linked artifacts.
+            </p>
+          </article>
+          <article class="research-item">
+            <h3>Computation</h3>
+            <p>
+              Data-driven methods for extracting physiology from noisy in-vivo
+              recordings and separating signal from behavior-related artifacts.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline" aria-labelledby="appointments-title">
+        <div class="section-heading">
+          <p class="section-label">Appointments</p>
+          <h2 id="appointments-title">Scientific path</h2>
+        </div>
+        <ol class="timeline-list">
+          <li>
+            <time>2025-present</time>
+            <span>Postdoctoral research associate, Hillman Lab, St. Jude Children's Research Hospital</span>
+          </li>
+          <li>
+            <time>2021-2024</time>
+            <span>PhD in Biomedical Engineering, University of Calgary</span>
+          </li>
+          <li>
+            <time>2024</time>
+            <span>Sessional instructor, Electrical and Software Engineering, University of Calgary</span>
+          </li>
+          <li>
+            <time>2015-2019</time>
+            <span>BTech in Electrical and Electronics Engineering, Vellore Institute of Technology</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section publications" id="publications">
+        <div class="section-heading">
+          <p class="section-label">Selected publications</p>
+          <h2>Recent papers and proceedings</h2>
+        </div>
+        <div class="publication-list">
+          <article>
+            <h3>Deep brain stimulation of A13 region evokes robust locomotory response in rats</h3>
+            <p>Journal of Neurophysiology, 2025</p>
+          </article>
+          <article>
+            <h3>Tetherless miniaturized point detector device for monitoring widefield cortical surface hemodynamics in mice</h3>
+            <p>Journal of Biomedical Optics, 2025</p>
+          </article>
+          <article>
+            <h3>Reflectance from in-bore optical fibers enhances needle puncture detection</h3>
+            <p>Frontiers in Robotics and AI, 2025</p>
+          </article>
+          <article>
+            <h3>Distinguishing motion artifacts during optical fiber-based in-vivo hemodynamics recordings</h3>
+            <p>Neurophotonics, 2024</p>
+          </article>
+          <article>
+            <h3>TinyIOMS: A wireless miniaturised system for monitoring hemodynamics from surface brain regions</h3>
+            <p>IEEE BioCAS, 2023</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <p class="section-label">Talks</p>
+          <h2>Invited and selected presentations</h2>
+          <ul class="clean-list">
+            <li>Hillman Lab, Zuckerman Mind Brain Behavior Institute, Columbia University, 2024</li>
+            <li>Hotchkiss Brain Institute Research Day, selected trainee talk, 2024</li>
+            <li>HHMI Janelia, invited talk, 2024</li>
+            <li>W.M. Keck Center for Cellular Imaging, invited seminar, 2024</li>
+          </ul>
+        </div>
+        <div>
+          <p class="section-label">Recognition</p>
+          <h2>Awards and fellowships</h2>
+          <ul class="clean-list">
+            <li>Richard Motyka Graduate Scholarship in Engineering, 2024</li>
+            <li>Hotchkiss Brain Institute Conference Travel Award, 2024</li>
+            <li>SPIE Photonics West Student Conference Support Grant, 2023</li>
+            <li>Alberta Graduate Excellence Scholarship, 2020-2021</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="teaching">
+        <div class="section-heading">
+          <p class="section-label">Teaching</p>
+          <h2>Biomedical and electrical engineering education</h2>
+        </div>
+        <div class="teaching-list">
+          <p>Electronic Devices and Materials, University of Calgary</p>
+          <p>Circuits II, University of Calgary</p>
+          <p>Digital Circuits, University of Calgary</p>
+          <p>Biomedical Signals, Systems and Instrumentation I, University of Calgary</p>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>For collaborations, talks, or research questions</h2>
+        </div>
+        <a class="contact-link" href="mailto:anupambisht2017@gmail.com">anupambisht2017@gmail.com</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Anupam Bisht</p>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
 </html>
